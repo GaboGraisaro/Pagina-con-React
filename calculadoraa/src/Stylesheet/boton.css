@@ -1,4 +1,4 @@
-.boton-contenedor {
+.boton-cont {
     height: 80px;
     display: flex;
     flex: 1 1;
@@ -13,4 +13,10 @@
     margin: 4px;
     cursor: pointer;
     user-select: none;
+}
+
+.operador {
+    background-color: #00471b;
+
 };
+
