@@ -1,7 +1,7 @@
 
 import './App.css';
 import Homero from './imagenes/homero.jpg';
-import Tarea from './componentes/tareas.jsx';
+import tareaFormulario from './componentes/tareaFormulario';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className='tareas-lista-princial'>
       <h1>Mis Tareas</h1>
-      <Tarea texto='aprender React'/>
+      <tareaFormulario />
       </div>
     </div>
    );
